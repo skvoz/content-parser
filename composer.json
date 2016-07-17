@@ -1,0 +1,31 @@
+{
+    "name": "crawler-utils/scraper",
+    "type": "library",
+    "description": "scrapper content some page next sites: github, kaggle, stackoverflow",
+    "keywords": ["framework", "http", "rest", "web service", "curl", "client", "HTTP client"],
+    "homepage": "http://guzzlephp.org/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Perevozchikov Konstantin",
+            "email": "skvoz.ne@gmail.com",
+            "homepage": "http://skvozweb.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "CrawlerUtils\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CrawlerUtils\\Tests\\": "tests/"
+        }
+    }
+}
