@@ -1,9 +1,8 @@
 {
     "name": "crawler-utils/scraper",
     "type": "library",
-    "description": "scrapper content some page next sites: github, kaggle, stackoverflow",
-    "keywords": ["framework", "http", "rest", "web service", "curl", "client", "HTTP client"],
-    "homepage": "http://guzzlephp.org/",
+    "description": "scraper content some page next sites: github, kaggle, stackoverflow",
+    "keywords": ["scraper github"],
     "license": "MIT",
     "authors": [
         {
